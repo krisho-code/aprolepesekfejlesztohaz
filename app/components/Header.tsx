@@ -15,7 +15,7 @@ export default function Header() {
         {/* Logo/Title */}
         <div className="flex items-center gap-2 cursor-pointer group">
           <div className="w-10 h-10 md:w-12 md:h-12 bg-orange-400 rounded-lg flex items-center justify-center font-bold text-xl md:text-2xl group-hover:rotate-12 transition-transform duration-300">
-            {/* Logo Here */}
+            <img src="/logo.png" />
           </div>
           <a href="#" className="flex flex-col">
             <h1 className="text-base md:text-xl font-black text-gray-800">
