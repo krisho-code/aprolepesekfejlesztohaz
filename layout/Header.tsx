@@ -10,7 +10,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="bg-white border-b-2 border-gray-400 shadow-md sticky top-0 z-50">
+    <header className="bg-white border-b-2 md:py-2 border-gray-400 shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-8 xl:px-24 py-4 flex items-center justify-between">
         {/* Logo/Title */}
         <a href="#" className="flex items-center gap-2 cursor-pointer group">
