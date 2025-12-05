@@ -62,7 +62,7 @@ export default function ImageGallery() {
             key={image.id}
             className={`absolute ${getPositionClasses(
               image.position
-            )} hover:scale-110 transition-transform duration-300 cursor-pointer`}
+            )} hover:scale-110 transition-transform duration-300`}
           >
             <div
               className={`bg-white rounded-2xl shadow-xl p-3 border-4 ${image.borderColor}`}

@@ -3,7 +3,7 @@ import ImageGallery from "./ImageGallery";
 
 export default function HeroSection() {
   return (
-    <section className="relative py-16 md:py-24 bg-linear-to-b from-orange-50 via-blue-50 to-white overflow-hidden">
+    <section className="relative py-16 md:py-32 bg-white overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-orange-200 rounded-full blur-3xl opacity-20 -z-10"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-200 rounded-full blur-3xl opacity-20 -z-10"></div>
@@ -32,13 +32,13 @@ export default function HeroSection() {
 
             <div className="flex flex-wrap justify-center lg:justify-start gap-3 pt-4">
               <a
-                href="#"
+                href="#rolunk"
                 className="px-8 py-3 bg-orange-400 text-white font-bold rounded-lg hover:bg-orange-500 transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer"
               >
                 Tudjon meg többet
               </a>
               <a
-                href="#"
+                href="#kapcsolat"
                 className="px-8 py-3 border-2 border-gray-300 text-gray-800 font-bold rounded-lg hover:border-orange-400 hover:text-orange-400 transition-all duration-300 cursor-pointer"
               >
                 Kapcsolat

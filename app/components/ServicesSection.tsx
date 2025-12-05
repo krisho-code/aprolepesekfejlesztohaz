@@ -1,0 +1,97 @@
+import Link from "next/link";
+
+export default function ServicesSection() {
+  const services = [
+    {
+      title: "Beszédészlelési nehézségek felmérése és fejlesztése",
+      description:
+        "Szakszerű felmérés és célzott fejlesztés a beszédészlelési problémák megoldására.",
+      icon: "🎤",
+    },
+    {
+      title: "Alapozó terápiás fejlesztés",
+      description:
+        "Alapvető mozgás- és egyensúlyfejlesztés a gyermek optimális fejlődéséhez.",
+      icon: "💪",
+    },
+    {
+      title: "Sérülés specifikus mozgásfejlesztés",
+      description:
+        "Egyénre szabott mozgásfejlesztés sérülésből vagy fogyatékosságból eredő nehézségekhez.",
+      icon: "🚶",
+    },
+    {
+      title: "Iskola előkészítő és ovistorna",
+      description:
+        "Fizikai és mentális felkészítés az iskolakezdésre, mozgás- és koordinációfejlesztés.",
+      icon: "🎓",
+    },
+    {
+      title: "Ovis és iskolás jóga",
+      description:
+        "Rendszeres jógaoktatás az érzelmi egyensúly és rugalmasság fejlesztésére.",
+      icon: "🧘",
+    },
+    {
+      title: "Diszlexia és diszgráfia prevenció",
+      description:
+        "Megelőző fejlesztés az olvasás és írás nehézségeinek megelőzésére.",
+      icon: "📚",
+    },
+    {
+      title: "Tanulási technikák tanítása",
+      description:
+        "Hatékony tanulási módszerek és stratégiák tanítása a sikeres iskolai teljesítményhez.",
+      icon: "🧠",
+    },
+    {
+      title: "Logopédiai ellátás",
+      description:
+        "Logopédiai szolgáltatások a rászoruló gyermekek számára nyelvfejlesztésre.",
+      icon: "👄",
+    },
+  ];
+
+  return (
+    <section
+      id="foglalkozasok"
+      className="py-20 bg-linear-to-br from-orange-50 to-orange-100"
+    >
+      <div className="container mx-auto px-8 xl:px-24">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900">
+          Fejlesztések & Foglalkozások
+        </h2>
+        <p className="text-center text-gray-600 mb-16 text-lg">
+          Megoldásaink gyermekek célzott fejlesztésére
+        </p>
+
+        {/* Services Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          {services.map((service, index) => (
+            <div
+              key={index}
+              className="p-6 bg-linear-to-br from-blue-50 to-indigo-50 rounded-lg border-2 border-blue-200 hover:shadow-lg transition-shadow duration-300"
+            >
+              <div className="text-4xl mb-3">{service.icon}</div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                {service.title}
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                {service.description}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        {/* CTA Button */}
+        <div className="flex justify-center">
+          <Link href="#fejlesztesek">
+            <button className="px-8 py-3 bg-orange-400 text-white font-bold rounded-lg hover:bg-orange-500 transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer">
+              Összes Fejlesztés Megtekintése
+            </button>
+          </Link>
+        </div>
+      </div>
+    </section>
+  );
+}

@@ -11,9 +11,9 @@ export default function MobileMenu() {
 
   const menuItems = [
     { label: "Főoldal", href: "#" },
-    { label: "Rólunk", href: "#" },
-    { label: "Fejlesztések", href: "#" },
-    { label: "Kapcsolat", href: "#" },
+    { label: "Rólunk", href: "#rolunk" },
+    { label: "Foglalkozások", href: "#foglalkozasok" },
+    { label: "Kapcsolat", href: "#kapcsolat" },
   ];
 
   return (
