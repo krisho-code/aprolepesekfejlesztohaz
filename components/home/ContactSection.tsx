@@ -20,7 +20,7 @@ export default function ContactSection() {
         {/* Contact Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           {/* Phone Card */}
-          <div className="p-6 bg-orange-100 rounded-lg border-2 border-orange-200 hover:shadow-lg transition-shadow duration-300">
+          <div className="p-6 bg-orange-100 rounded-lg border-2 border-orange-200 hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
             <div className="text-4xl mb-3">📞</div>
             <h3 className="text-lg font-semibold text-gray-900 mb-2">
               Telefon
@@ -34,7 +34,7 @@ export default function ContactSection() {
           </div>
 
           {/* Email Card */}
-          <div className="p-6 bg-orange-100 rounded-lg border-2 border-orange-200 hover:shadow-lg transition-shadow duration-300">
+          <div className="p-6 bg-orange-100 rounded-lg border-2 border-orange-200 hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
             <div className="text-4xl mb-3">✉️</div>
             <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
             <a
@@ -46,7 +46,7 @@ export default function ContactSection() {
           </div>
 
           {/* Location Card */}
-          <div className="p-6 bg-orange-100 rounded-lg border-2 border-orange-200 hover:shadow-lg transition-shadow duration-300">
+          <div className="p-6 bg-orange-100 rounded-lg border-2 border-orange-200 hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
             <div className="text-4xl mb-3">📍</div>
             <h3 className="text-lg font-semibold text-gray-900 mb-2">Cím</h3>
             <p className="text-orange-600 font-semibold text-sm">
