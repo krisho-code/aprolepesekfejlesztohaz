@@ -24,7 +24,7 @@ export default function Footer() {
   return (
     <footer className="bg-white border-t-2 border-gray-400 text-gray-800">
       {/* Main Footer Content */}
-      <div className="container mx-auto px-8 py-12">
+      <div className="container mx-auto px-8 xl:px-24 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Logo and Company Info */}
           <div className="flex flex-col gap-4 text-center md:text-left">
@@ -89,7 +89,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <div className="border-t border-gray-200 bg-gray-50">
-        <div className="container mx-auto px-8 py-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-600">
+        <div className="container mx-auto px-8 xl:px-24 py-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-600">
           <p>
             &copy; {currentYear} Apró Lépések Fejlesztőház. Minden jog
             fenntartva.
