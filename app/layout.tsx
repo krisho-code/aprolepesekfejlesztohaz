@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./global.css";
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "../layout/Header";
+import Footer from "../layout/Footer";
 
 export const metadata: Metadata = {
   title: "Apró Lépések Fejlesztőház",
