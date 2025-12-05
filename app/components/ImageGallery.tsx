@@ -8,6 +8,7 @@ interface ImageCard {
   emoji: string;
   emojiBackground: string;
   position: "top" | "bottom-left" | "bottom-right";
+  emojiPosition?: "top-left" | "top-right";
 }
 
 const images: ImageCard[] = [
@@ -19,6 +20,7 @@ const images: ImageCard[] = [
     emoji: "😊",
     emojiBackground: "bg-yellow-300",
     position: "top",
+    emojiPosition: "top-right",
   },
   {
     id: 2,
@@ -28,6 +30,7 @@ const images: ImageCard[] = [
     emoji: "🎉",
     emojiBackground: "bg-pink-300",
     position: "bottom-left",
+    emojiPosition: "top-left",
   },
   {
     id: 3,
@@ -37,6 +40,7 @@ const images: ImageCard[] = [
     emoji: "⭐",
     emojiBackground: "bg-purple-300",
     position: "bottom-right",
+    emojiPosition: "top-right",
   },
 ];
 
@@ -46,11 +50,22 @@ export default function ImageGallery() {
       case "top":
         return "top-0 left-1/2 transform -translate-x-1/2 z-30";
       case "bottom-left":
-        return "bottom-0 left-0";
+        return "bottom-0 left-0 top-32";
       case "bottom-right":
         return "bottom-0 right-0";
       default:
         return "";
+    }
+  };
+
+  const getEmojiClasses = (emojiPosition?: string) => {
+    switch (emojiPosition) {
+      case "top-left":
+        return "-top-3 -left-3";
+      case "top-right":
+        return "-top-3 -right-3";
+      default:
+        return "-top-3 -right-3";
     }
   };
 
@@ -74,7 +89,9 @@ export default function ImageGallery() {
               />
             </div>
             <div
-              className={`absolute -top-3 -right-3 ${image.emojiBackground} text-2xl rounded-full p-2 shadow-md`}
+              className={`absolute ${getEmojiClasses(image.emojiPosition)} ${
+                image.emojiBackground
+              } text-2xl rounded-full p-2 shadow-md`}
             >
               {image.emoji}
             </div>
