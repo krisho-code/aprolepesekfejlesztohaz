@@ -95,7 +95,7 @@ export default function ContactSection() {
                 href="https://facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-8 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer"
+                className="px-8 py-3 bg-blue-600 text-white font-bold text-center rounded-lg hover:bg-blue-700 transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer"
               >
                 Kövess a Facebookon
               </a>
