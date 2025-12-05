@@ -94,7 +94,7 @@ export default function Footer() {
             &copy; {currentYear} Apró Lépések Fejlesztőház. Minden jog
             fenntartva.
           </p>
-          <div className="flex gap-4 mt-4 md:mt-0">
+          {/* <div className="flex gap-4 mt-4 md:mt-0">
             <a
               href="#"
               className="hover:text-orange-500 transition-colors duration-300"
@@ -107,7 +107,7 @@ export default function Footer() {
             >
               Használati feltételek
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
