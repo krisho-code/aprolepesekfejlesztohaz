@@ -86,13 +86,13 @@ export default function GallerySection() {
         {/* Header */}
         <div className="mb-16 text-center">
           <div className="inline-block mb-4">
-            <span className="bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-[10px] sm:text-sm font-bold">
+            <span className="bg-pink-100 text-pink-700 px-4 py-2 rounded-full text-[10px] sm:text-sm font-bold">
               🖼️ Apró Lépések Galériája
             </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-gray-900 leading-tight mb-4">
             Az apró sikerek{" "}
-            <span className="text-purple-500">nagy pillanatai</span>
+            <span className="text-pink-500">nagy pillanatai</span>
           </h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
             Közös útjainkat fényképekben felmutatva – ahol kreatívitás, játék és
@@ -141,7 +141,7 @@ export default function GallerySection() {
         {/* Bottom decorative text */}
         <div className="text-center mt-16">
           <p className="text-gray-600 text-lg font-semibold">
-            Minden képben egy történet, minden pillanatban egy fejlődés 💚
+            Minden képben egy történet, minden pillanatban egy fejlődés 💗
           </p>
         </div>
       </div>
