@@ -9,6 +9,7 @@ interface ImageCard {
   emojiBackground: string;
   position: "top" | "bottom-left" | "bottom-right";
   emojiPosition?: "top-left" | "top-right";
+  rotation?: string;
 }
 
 const images: ImageCard[] = [
@@ -21,6 +22,7 @@ const images: ImageCard[] = [
     emojiBackground: "bg-yellow-300",
     position: "top",
     emojiPosition: "top-right",
+    rotation: "-rotate-2",
   },
   {
     id: 2,
@@ -31,6 +33,7 @@ const images: ImageCard[] = [
     emojiBackground: "bg-pink-300",
     position: "bottom-left",
     emojiPosition: "top-left",
+    rotation: "rotate-3",
   },
   {
     id: 3,
@@ -41,6 +44,7 @@ const images: ImageCard[] = [
     emojiBackground: "bg-purple-300",
     position: "bottom-right",
     emojiPosition: "top-right",
+    rotation: "-rotate-3",
   },
 ];
 
@@ -75,9 +79,9 @@ export default function ImageGallery() {
         {images.map((image) => (
           <div
             key={image.id}
-            className={`absolute ${getPositionClasses(
-              image.position
-            )} hover:scale-110 transition-transform duration-300`}
+            className={`absolute ${getPositionClasses(image.position)} ${
+              image.rotation
+            } hover:scale-110 transition-transform duration-300`}
           >
             <div
               className={`bg-white rounded-2xl shadow-xl p-3 border-4 ${image.borderColor}`}
