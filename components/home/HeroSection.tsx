@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+
 import ImageGallery from "./ImageGallery";
 
 export default function HeroSection() {
@@ -31,18 +33,18 @@ export default function HeroSection() {
             </p>
 
             <div className="flex flex-wrap justify-center lg:justify-start gap-3 pt-4">
-              <a
-                href="#rolunk"
+              <Link
+                href="/rolunk"
                 className="px-8 py-3 bg-orange-400 text-white font-bold rounded-lg hover:bg-orange-500 transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer"
               >
                 Tudjon meg többet
-              </a>
-              <a
-                href="#kapcsolat"
+              </Link>
+              <Link
+                href="/kapcsolat"
                 className="px-8 py-3 border-2 border-gray-300 text-gray-800 font-bold rounded-lg hover:border-orange-400 hover:text-orange-400 transition-all duration-300 cursor-pointer"
               >
                 Kapcsolat
-              </a>
+              </Link>
             </div>
           </div>
 

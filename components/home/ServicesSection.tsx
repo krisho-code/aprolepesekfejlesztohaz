@@ -93,7 +93,7 @@ export default function ServicesSection() {
 
         {/* CTA Button */}
         <div className="flex justify-center">
-          <Link href="#fejlesztesek">
+          <Link href="/foglalkozasok">
             <button className="px-8 py-3 bg-green-500 text-white font-bold rounded-lg hover:bg-green-600 transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer">
               Összes Fejlesztés Megtekintése
             </button>

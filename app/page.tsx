@@ -1,5 +1,5 @@
 import HeroSection from "../components/home/HeroSection";
-import AboutSection from "../components/home/AboutSection";
+import AboutSection from "../components/AboutSection";
 import ServicesSection from "../components/home/ServicesSection";
 import GallerySection from "../components/home/GallerySection";
 import ContactSection from "../components/home/ContactSection";
