@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 
 export default function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,10 +11,10 @@ export default function MobileMenu() {
   };
 
   const menuItems = [
-    { label: "Főoldal", href: "#" },
-    { label: "Rólunk", href: "#rolunk" },
-    { label: "Foglalkozások", href: "#foglalkozasok" },
-    { label: "Kapcsolat", href: "#kapcsolat" },
+    { label: "Főoldal", href: "/" },
+    { label: "Rólunk", href: "/rolunk" },
+    { label: "Foglalkozások", href: "/foglalkozasok" },
+    { label: "Kapcsolat", href: "/kapcsolat" },
   ];
 
   return (
@@ -48,13 +49,13 @@ export default function MobileMenu() {
           <ul className="flex flex-col py-2">
             {menuItems.map((item, index) => (
               <li key={index}>
-                <a
+                <Link
                   href={item.href}
                   className="flex items-center gap-3 px-6 py-3 text-gray-800 font-semibold hover:bg-orange-50 hover:text-orange-500 transition-all duration-200 border-l-4 border-transparent hover:border-orange-400"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

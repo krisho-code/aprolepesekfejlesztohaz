@@ -1,19 +1,21 @@
 import React from "react";
+import Link from "next/link";
+
 import MobileMenu from "./MobileMenu";
 
 export default function Header() {
   const navItems = [
-    { label: "Főoldal", href: "#" },
-    { label: "Rólunk", href: "#rolunk" },
-    { label: "Foglalkozások", href: "#foglalkozasok" },
-    { label: "Kapcsolat", href: "#kapcsolat", isButton: true },
+    { label: "Főoldal", href: "/" },
+    { label: "Rólunk", href: "/rolunk" },
+    { label: "Foglalkozások", href: "/foglalkozasok" },
+    { label: "Kapcsolat", href: "/kapcsolat", isButton: true },
   ];
 
   return (
     <header className="bg-white border-b-2 md:py-2 border-gray-400 shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-8 xl:px-24 py-4 flex items-center justify-between">
         {/* Logo/Title */}
-        <a href="#" className="flex items-center gap-2 cursor-pointer group">
+        <Link href="/" className="flex items-center gap-2 cursor-pointer group">
           <div className="w-10 h-10 md:w-12 md:h-12 bg-orange-400 rounded-lg flex items-center justify-center font-bold text-xl md:text-2xl group-hover:rotate-12 transition-transform duration-300">
             <img src="/logo.png" />
           </div>
@@ -25,14 +27,14 @@ export default function Header() {
               fejlesztőház
             </p>
           </div>
-        </a>
+        </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:block">
           <ul className="flex gap-1">
             {navItems.map((item, index) => (
               <li key={index}>
-                <a
+                <Link
                   href={item.href}
                   className={`px-4 py-2 font-semibold transition-all duration-300 ${
                     item.isButton
@@ -41,7 +43,7 @@ export default function Header() {
                   }`}
                 >
                   {item.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

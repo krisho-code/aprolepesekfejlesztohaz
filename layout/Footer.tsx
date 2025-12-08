@@ -1,13 +1,14 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const navItems = [
-    { label: "Főoldal", href: "#" },
-    { label: "Rólunk", href: "#rolunk" },
-    { label: "Foglalkozások", href: "#foglalkozasok" },
-    { label: "Kapcsolat", href: "#kapcsolat" },
+    { label: "Főoldal", href: "/" },
+    { label: "Rólunk", href: "/rolunk" },
+    { label: "Foglalkozások", href: "/foglalkozasok" },
+    { label: "Kapcsolat", href: "/kapcsolat" },
   ];
 
   const documents = [
@@ -28,7 +29,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Logo and Company Info */}
           <div className="flex flex-col gap-4 text-center md:text-left">
-            <div className="flex items-center gap-2 cursor-pointer group justify-center md:justify-start">
+            <Link
+              href="/"
+              className="flex items-center gap-2 cursor-pointer group justify-center md:justify-start"
+            >
               <div className="w-10 h-10 bg-orange-400 rounded-lg flex items-center justify-center font-bold text-xl group-hover:rotate-12 transition-transform duration-300">
                 <img src="/logo.png" alt="Apró Lépések Logo" />
               </div>
@@ -40,7 +44,7 @@ export default function Footer() {
                   fejlesztőház
                 </p>
               </div>
-            </div>
+            </Link>
             <p className="text-sm text-gray-600">
               Személyre szabott fejlesztés csecsemőkortól 16 éves korig.
             </p>
@@ -50,12 +54,12 @@ export default function Footer() {
               <ul className="flex flex-row gap-4 items-center justify-center md:justify-start md:items-start">
                 {navItems.map((item, index) => (
                   <li key={index}>
-                    <a
+                    <Link
                       href={item.href}
                       className="text-gray-900 hover:text-orange-500 transition-colors duration-300 font-medium text-sm"
                     >
                       {item.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
