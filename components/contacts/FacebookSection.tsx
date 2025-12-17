@@ -1,8 +1,8 @@
 export default function FacebookSection() {
   return (
-    <section className="py-24 bg-blue-600">
+    <section className="py-24 bg-linear-to-br from-blue-50 to-indigo-50">
       <div className="container mx-auto px-8 xl:px-24">
-        <div className="bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 p-12">
+        <div className="bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 border-4 border-blue-300 p-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Facebook Content */}
             <div>

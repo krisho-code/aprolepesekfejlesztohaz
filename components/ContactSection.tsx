@@ -1,13 +1,6 @@
 import Link from "next/link";
-import FacebookSection from "./FacebookSection";
 
-interface ContactSectionProps {
-  showFacebook?: boolean;
-}
-
-export default function ContactSection({
-  showFacebook = true,
-}: ContactSectionProps) {
+export default function ContactSection() {
   return (
     <section
       id="kapcsolat"
@@ -68,16 +61,22 @@ export default function ContactSection({
         </div>
 
         {/* CTA Button Section */}
-        <div className={`flex justify-center ${showFacebook ? "mb-16" : ""}`}>
-          <Link href="/kapcsolat">
-            <button className="px-8 py-3 bg-purple-400 text-white font-bold rounded-lg hover:bg-purple-500 transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer text-lg">
-              Foglalj Időpontot
-            </button>
-          </Link>
+        <div className="flex items-center justify-center space-x-3">
+          <div className="flex justify-center">
+            <Link href="/kapcsolat">
+              <button className="px-8 py-3 bg-purple-400 text-white font-bold rounded-lg hover:bg-purple-500 transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer text-lg">
+                Írj nekünk
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="/kapcsolat">
+              <button className="px-8 py-3 bg-transparent text-purple-400 border-2 border-purple-400 font-bold rounded-lg hover:bg-white transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer text-lg">
+                Foglalj Időpontot
+              </button>
+            </Link>
+          </div>
         </div>
-
-        {/* Facebook Section */}
-        {showFacebook && <FacebookSection />}
       </div>
     </section>
   );

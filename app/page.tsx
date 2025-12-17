@@ -12,7 +12,7 @@ export default function Home() {
         <AboutSection />
         <ServicesSection />
         <GallerySection />
-        <ContactSection />
+        <ContactSection showFacebook={false} />
       </main>
     </>
   );
