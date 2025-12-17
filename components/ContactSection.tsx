@@ -1,6 +1,12 @@
 import Link from "next/link";
 
-export default function ContactSection() {
+interface ContactSectionProps {
+  showFacebook?: boolean;
+}
+
+export default function ContactSection({
+  showFacebook = true,
+}: ContactSectionProps) {
   return (
     <section
       id="kapcsolat"
