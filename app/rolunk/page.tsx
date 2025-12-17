@@ -1,9 +1,9 @@
 import React from "react";
 
 import AboutSection from "@/components/AboutSection";
-import ServicesOverview from "@/components/about/ServicesOverview";
+import ServicesOverview from "@/components/ServicesOverview";
 import TeamSection from "@/components/about/TeamSection";
-import ContactSection from "@/components/home/ContactSection";
+import ContactSection from "@/components/ContactSection";
 
 const About = () => {
   return (

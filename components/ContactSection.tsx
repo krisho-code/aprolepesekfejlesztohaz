@@ -32,11 +32,9 @@ export default function ContactSection({
         {/* Contact Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           {/* Phone Card */}
-          <div className="p-6 bg-white rounded-lg border-2 border-purple-400 hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
+          <div className="p-6 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 border-4 border-purple-300 flex flex-col items-center text-center">
             <div className="text-4xl mb-3">📞</div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">
-              Telefon
-            </h3>
+            <h3 className="text-lg font-bold text-gray-900 mb-2">Telefon</h3>
             <a
               href="tel:+36301234567"
               className="text-purple-600 hover:text-purple-700 font-semibold transition-colors"
@@ -46,9 +44,9 @@ export default function ContactSection({
           </div>
 
           {/* Email Card */}
-          <div className="p-6 bg-white rounded-lg border-2 border-purple-400 hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
+          <div className="p-6 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 border-4 border-purple-300 flex flex-col items-center text-center">
             <div className="text-4xl mb-3">✉️</div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
+            <h3 className="text-lg font-bold text-gray-900 mb-2">Email</h3>
             <a
               href="mailto:info@example.com"
               className="text-purple-600 hover:text-purple-700 font-semibold transition-colors"
@@ -58,9 +56,9 @@ export default function ContactSection({
           </div>
 
           {/* Location Card */}
-          <div className="p-6 bg-white rounded-lg border-2 border-purple-400 hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
+          <div className="p-6 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 border-4 border-purple-300 flex flex-col items-center text-center">
             <div className="text-4xl mb-3">📍</div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">Cím</h3>
+            <h3 className="text-lg font-bold text-gray-900 mb-2">Cím</h3>
             <p className="text-purple-600 font-semibold text-sm">
               1234 Budapest
               <br />

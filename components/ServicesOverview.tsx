@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ServicesOverview() {
   return (
     <section
@@ -40,6 +42,15 @@ export default function ServicesOverview() {
             fordítunk a prevencióra, a felmérésen alapuló korrekciót, valamint a
             tehetséggondozásra.
           </p>
+
+          <div className="pt-6">
+            <Link
+              href="/foglalkozasok"
+              className="inline-block px-8 py-3 bg-orange-400 text-white font-bold rounded-lg hover:bg-orange-500 transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer"
+            >
+              Ismerd meg foglalkozásainkat
+            </Link>
+          </div>
         </div>
       </div>
     </section>

@@ -1,6 +1,6 @@
 export default function FacebookSection() {
   return (
-    <div className="bg-indigo-50 border-2 border-blue-200 rounded-2xl p-12">
+    <div className="bg-indigo-50 border-4 border-blue-200 rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 p-12">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Facebook Content */}
         <div>

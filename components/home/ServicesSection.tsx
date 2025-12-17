@@ -3,52 +3,28 @@ import Link from "next/link";
 export default function ServicesSection() {
   const services = [
     {
-      title: "Beszédészlelési nehézségek felmérése és fejlesztése",
+      title: "Alapozó terápiás fejlesztés",
       description:
-        "Szakszerű felmérés és célzott fejlesztés a beszédészlelési problémák megoldására.",
+        "Átfogó fejlesztő foglalkozások különböző területeken a gyermekek számára.",
       icon: "🎤",
     },
     {
-      title: "Alapozó terápiás fejlesztés",
+      title: "Játékos készségfejlesztés óvodásoknak",
       description:
-        "Alapvető mozgás- és egyensúlyfejlesztés a gyermek optimális fejlődéséhez.",
+        "Fejlesztő foglalkozások játékos formában az óvodás korú gyermekek számára.",
       icon: "💪",
     },
     {
-      title: "Sérülés specifikus mozgásfejlesztés",
+      title: "Iskolára hangoló fejlesztés óvodásoknak",
       description:
-        "Egyénre szabott mozgásfejlesztés sérülésből vagy fogyatékosságból eredő nehézségekhez.",
+        "Készségfejlesztő foglalkozások az iskolakezdés előkészítésére.",
       icon: "🚶",
     },
     {
-      title: "Iskola előkészítő és ovistorna",
+      title: "Beszédindító – beszédpercepciós fejlesztés óvodásoknak",
       description:
         "Fizikai és mentális felkészítés az iskolakezdésre, mozgás- és koordinációfejlesztés.",
       icon: "🎓",
-    },
-    {
-      title: "Ovis és iskolás jóga",
-      description:
-        "Rendszeres jógaoktatás az érzelmi egyensúly és rugalmasság fejlesztésére.",
-      icon: "🧘",
-    },
-    {
-      title: "Diszlexia és diszgráfia prevenció",
-      description:
-        "Megelőző fejlesztés az olvasás és írás nehézségeinek megelőzésére.",
-      icon: "📚",
-    },
-    {
-      title: "Tanulási technikák tanítása",
-      description:
-        "Hatékony tanulási módszerek és stratégiák tanítása a sikeres iskolai teljesítményhez.",
-      icon: "🧠",
-    },
-    {
-      title: "Logopédiai ellátás",
-      description:
-        "Logopédiai szolgáltatások a rászoruló gyermekek számára nyelvfejlesztésre.",
-      icon: "👄",
     },
   ];
 
@@ -78,13 +54,13 @@ export default function ServicesSection() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="p-6 bg-white rounded-lg border-2 border-green-300 hover:shadow-lg transition-shadow duration-300"
+              className="p-6 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 border-4 border-green-300"
             >
               <div className="text-4xl mb-3">{service.icon}</div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+              <h3 className="text-lg font-bold text-gray-900 mb-2">
                 {service.title}
               </h3>
-              <p className="text-sm text-gray-600 leading-relaxed">
+              <p className="text-sm text-gray-700 leading-relaxed">
                 {service.description}
               </p>
             </div>
