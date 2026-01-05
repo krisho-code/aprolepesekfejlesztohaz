@@ -28,7 +28,10 @@ function AccordionItem({
   onClick,
 }: AccordionItemProps) {
   return (
-    <div className="bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 overflow-hidden border-4 border-green-300">
+    <div
+      id="services"
+      className="bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 overflow-hidden border-4 border-green-300"
+    >
       {/* Accordion Header */}
       <button
         onClick={onClick}

@@ -35,10 +35,10 @@ export default function ContactSection({
             <div className="text-4xl mb-3">📞</div>
             <h3 className="text-lg font-bold text-gray-900 mb-2">Telefon</h3>
             <a
-              href="tel:+36301234567"
+              href="tel:+36 20 558 6148"
               className="text-purple-600 hover:text-purple-700 font-semibold transition-colors"
             >
-              +36 (30) 123-4567
+              +36 20 558 6148
             </a>
           </div>
 
@@ -47,10 +47,10 @@ export default function ContactSection({
             <div className="text-4xl mb-3">✉️</div>
             <h3 className="text-lg font-bold text-gray-900 mb-2">Email</h3>
             <a
-              href="mailto:info@example.com"
+              href="mailto:aprolepesekfejlesztohaz@gmail.com"
               className="text-purple-600 hover:text-purple-700 font-semibold transition-colors"
             >
-              info@example.com
+              aprolepesekfejlesztohaz@gmail.com
             </a>
           </div>
 
@@ -58,22 +58,24 @@ export default function ContactSection({
           <div className="p-6 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 border-4 border-purple-300 flex flex-col items-center text-center">
             <div className="text-4xl mb-3">📍</div>
             <h3 className="text-lg font-bold text-gray-900 mb-2">Cím</h3>
-            <p className="text-purple-600 font-semibold text-sm">
-              1234 Budapest
-              <br />
-              Magyarország
-            </p>
+            <a
+              href="https://www.google.com/maps/place/Apr%C3%B3+L%C3%A9p%C3%A9sek+Fejleszt%C5%91h%C3%A1z/@47.6499997,19.025381,19.58z/data=!4m6!3m5!1s0x4741d6324987bba7:0xd7f77d9dc075475c!8m2!3d47.6502994!4d19.0255918!16s%2Fg%2F11hyt0s8nf?hl=hu&entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D"
+              target="_blank"
+              className="text-purple-600 font-semibold text-sm"
+            >
+              2013 Pomáz, Sicambria utca 2.
+            </a>
           </div>
         </div>
 
         {/* CTA Button Section */}
         <div className="flex items-center justify-center space-x-3">
           <div className="flex justify-center">
-            <Link href="/kapcsolat">
+            <a href="mailto:aprolepesekfejlesztohaz@gmail.com">
               <button className="px-8 py-3 bg-purple-400 text-white font-bold rounded-lg hover:bg-purple-500 transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer text-lg">
                 Írj nekünk
               </button>
-            </Link>
+            </a>
           </div>
           <div className="flex justify-center">
             <Link href="/kapcsolat">

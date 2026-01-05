@@ -25,26 +25,82 @@ export default function AboutSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
-          <div className="space-y-6 text-gray-700 leading-relaxed text-center md:text-left">
-            <p className="text-base">
-              Gyermekek célzott fejlesztésével foglalkozunk, amely sokrétű
-              munkából áll. Felméréssel kezdődik a közös munkánk, ezt követően
-              megkezdődik a személyre szabott fejlesztés. Fontos, hogy a
-              szülőkkel és a gyermekekkel közösen oldjuk meg a problémákat.
-            </p>
+          <div className="space-y-8 text-gray-700 leading-relaxed text-center md:text-left">
+            {/* Az Apró Lépések Fejlesztőház története */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                Az Apró Lépések Fejlesztőház története
+              </h3>
+              <p className="text-base mb-3">
+                Az Apró Lépések Fejlesztőházat a felnőtt lányaimmal közösen
+                álmodtuk meg és hoztuk létre. Mindannyian elkötelezett segítő
+                szakemberek vagyunk, és 2016 óta együtt, egy csapatként
+                dolgozunk azért, hogy szeretetteljes, biztonságos és elfogadó
+                környezetet teremtsünk minden hozzánk érkező gyermek számára.
+              </p>
+              <p className="text-base italic text-blue-700 font-medium">
+                Ez számomra különleges büszkeség: a hivatásom a gyermekeimre is
+                átragadt, így együtt segíthetjük a családokat.
+              </p>
+            </div>
 
-            <p className="text-base">
-              Fejlesztői munkánkat csecsemő kortól egészen 16 éves korig látjuk
-              el. Tevékenységünk kiterjed például beszédészlelési nehézségek
-              felmérésére és ezek fejlesztésére, alapozó terápiás fejlesztésre,
-              sérülés specifikus mozgásfejlesztésre, óvodásoknak iskola
-              előkészítő, ovistorna, ovis jóga, iskolás jóga, diszlexia,
-              diszgráfia prevenció, tanulási technikák tanítása.
-            </p>
+            {/* Családi szakmai műhely */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                Családi szakmai műhely
+              </h3>
+              <p className="text-base">
+                Az Apró Lépések Fejlesztőház egy családi szakmai műhely, ahol
+                több generáció tapasztalata, tudása és elhivatottsága
+                találkozik. Számunkra a fejlesztés nem elszigetelt tevékenység,
+                hanem közös gondolkodás: gyermekekkel, szülőkkel és egymással.
+                Hiszünk abban, hogy a biztonságos kapcsolat, az elfogadó légkör
+                és a játékosság teremti meg azt az alapot, amelyen valódi
+                fejlődés indulhat el.
+              </p>
+            </div>
 
-            <p className="text-base font-medium text-gray-800">
-              Logopédiai ellátást biztosítunk a rászoruló gyermekeknek.
-            </p>
+            {/* Küldetésünk */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                Küldetésünk
+              </h3>
+              <p className="text-base font-semibold text-blue-700">
+                Szeretnénk, hogy minden gyermek megélhesse a siker örömét a
+                saját tempójában – mert hisszük, hogy az apró lépésekből
+                születnek a legnagyobb előrelépések. 🌱
+              </p>
+            </div>
+
+            {/* Szlogenek */}
+            <div className="bg-blue-50 rounded-lg p-6 border-l-4 border-blue-500">
+              <h4 className="text-lg font-bold text-gray-900 mb-3">
+                Szlogenink
+              </h4>
+              <ul className="space-y-3 text-sm md:text-base">
+                <li className="flex items-start">
+                  <span className="text-blue-500 mr-3 font-bold">✦</span>
+                  <span>
+                    „Apró lépésekben haladunk – mert minden kis előrelépés
+                    számít."
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-500 mr-3 font-bold">✦</span>
+                  <span>
+                    „Szakértelemmel, játékkal és elfogadással kísérjük a
+                    gyermekeket a fejlődés útján."
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-500 mr-3 font-bold">✦</span>
+                  <span>
+                    „Hiszünk a fejlődésben, az apró sikerekben és a közösen
+                    megélt örömökben."
+                  </span>
+                </li>
+              </ul>
+            </div>
           </div>
 
           {/* Image */}

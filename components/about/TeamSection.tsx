@@ -2,35 +2,44 @@ import TeamMember from "./TeamMember";
 
 const teamMembers = [
   {
-    name: "Dr. Nagy Éva",
-    specialization: "Fejlesztőpedagógus",
-    description:
-      "20+ év tapasztalattal a gyermekfejlesztés területén. Személyre szabott fejlesztési programok tervezésében szakértő, valamint logopédiai ellátásban jártas.",
+    name: "Szabó-Bodnár Fanni Kinga",
+    specialization: "Gyógypedagógus",
+    description1:
+      "Négy éve dolgozom az Apró Lépések Fejlesztőházban édesanyámmal és nővéremmel közösen. A gyermekek világa mindig is közel állt hozzám – már kora gyermekkoromban természetes volt számomra, hogy gyerekek vesznek körül, és könnyen megtalálom velük a hangot.",
+    description2:
+      "Különösen az óvodás és kisiskolás korosztály áll közel a szívemhez: velük gyorsan kialakul a bizalom, és jól érzem az egyensúlyt a játékosság és a fejlesztési célok között. Fontos számomra, hogy a gyerekek biztonságban, elfogadva és örömmel vegyenek részt a foglalkozásokon.",
+    description3:
+      "Sokat tanultam és tanulok ma is édesanyámtól és nővéremtől, ugyanakkor nagy hangsúlyt fektetek a folyamatos szakmai fejlődésre és önképzésre, hogy a mindennapi munkámban naprakész, a gyermekek egyéni szükségleteihez igazodó megoldásokat tudjak alkalmazni.",
+    description4:
+      "Hároméves kislányom édesanyjaként a szülői nézőpont is szerves része lett a szemléletemnek, ami tovább erősíti bennem az empátiát és a megértést a családok felé.",
     emoji: "👩‍🏫",
     image: "/team1.png",
   },
   {
-    name: "Kiss Márta",
-    specialization: "Logopédus",
-    description:
-      "Beszédészlelési nehézségek diagnosztizálásában és fejlesztésében szaktekintéllyé vált. Gyermekközpontú megközelítésben hisz, amely játékon alapul.",
-    emoji: "🎤",
+    name: "Bodnár Katalin",
+    specialization: "Gyógypedagógus",
+    description1:
+      "Gyógypedagógus, tanító, alapozó terapeuta, gyerekjóga oktató és beszédpercepciós fejlesztő vagyok – de ami a legfontosabb: négy gyermek édesanyja. Hiszek benne, hogy minden gyermek különleges, egyedi értékekkel születik, és minden apró lépés egy hatalmas fejlődés része.",
+    description2:
+      "2007 óta foglalkozom gyermekek és családok támogatásával. Számomra ez nem munka, hanem hivatás – feltölt, inspirál, és folyamatosan arra ösztönöz, hogy még több tudást adjak tovább. A gyermekekkel való közös munka során mindig arra törekszem, hogy a fejlesztés játékos, mégis célzott legyen, és a gyermekek örömmel vegyenek részt a foglalkozásokon.",
+    description3:
+      "Jelenleg a Bárczi Gusztáv EGYMI munkatársaként is dolgozom, ahol szakmai elhivatottságom minden nap megélhetem. Fontos számomra, hogy a családokkal való együttműködés során támogató, elfogadó légkört teremtsek, ahol a szülők is aktív részesei lehetnek a gyermekek fejlődési folyamatának.",
+    description4:
+      "Négy gyermek édesanyjaként a szülői tapasztalatok mélyen beépültek a szakmai szemléletembe. Hiszem, hogy a gyermekek fejlődéséhez nemcsak szakmai tudásra, hanem empátiára, türelemre és a családokkal való szoros együttműködésre is szükség van. Ez a komplex szemlélet az, ami minden nap motivál és előre visz a munkámban.",
+    emoji: "👩‍🏫",
     image: "/team2.png",
   },
   {
-    name: "Szabó Péter",
-    specialization: "Fizioterápia Szakember",
-    description:
-      "Mozgásfejlesztésben és terápiás mozgásban specializálódott. Sérülésspecifikus rehabilitáció és sensomotoros fejlesztésben jártas.",
-    emoji: "🏃",
-    image: "/team3.png",
-  },
-  {
-    name: "Tóth Judit",
-    specialization: "Óvodapedagógus & Jóga Instruktor",
-    description:
-      "Ovisoknak iskola-előkészítő és jóga foglalkozások vezetésében szakértő. A holisztikus gyermeknevelésnek és a mindfulness-nek a szószólója.",
-    emoji: "🧘‍♀️",
+    name: "Bodnár Eszter",
+    specialization: "Gyógypedagógus",
+    description1:
+      "Gyógypedagógusként – értelmileg akadályozottak pedagógiája és szomatopedagógia szakirányon – valamint alapozó terápiás fejlesztőként és TSMT terapeutaként hosszú évek óta foglalkozom sajátos nevelési igényű gyermekek fejlesztésével. Három gyermek édesanyjaként a szakmai tudás mellett a szülői tapasztalat is meghatározó része a szemléletemnek.",
+    description2:
+      "Édesanyámmal közösen álmodtuk meg az Apró Lépések Fejlesztőházat, azzal a céllal, hogy egy olyan biztonságos, támogató közeget hozzunk létre, ahol a gyermekek fejlődése valóban a középpontban áll, és a családok is segítséget, megértést kapnak. A kezdetektől fontos számunkra, hogy széles körű, egymásra épülő ellátást tudjunk biztosítani a hozzánk forduló gyermekek és szüleik számára.",
+    description3:
+      "Jelenleg a Bárczi Gusztáv EGYMI Tagintézményének vezetőjeként dolgozom, így az Apró Lépések Fejlesztőházban elsősorban szakmai háttértámogatással, szemléletformálással és teammunkával segítem a közös munkát. Hiszem, hogy a fejlődéshez nemcsak módszerekre, hanem elfogadó kapcsolatokra, bizalomra és együtt gondolkodó szakemberekre van szükség.",
+    description4: "",
+    emoji: "👩‍🏫",
     image: "/team4.png",
   },
 ];
@@ -56,13 +65,16 @@ export default function TeamSection() {
         </div>
 
         {/* Team Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {teamMembers.map((member, index) => (
             <TeamMember
               key={index}
               name={member.name}
               specialization={member.specialization}
-              description={member.description}
+              description1={member.description1}
+              description2={member.description2}
+              description3={member.description3}
+              description4={member.description4}
               emoji={member.emoji}
               image={member.image}
             />

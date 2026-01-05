@@ -3,13 +3,19 @@ import Image from "next/image";
 export default function TeamMember({
   name,
   specialization,
-  description,
+  description1,
+  description2,
+  description3,
+  description4,
   emoji,
   image,
 }: {
   name: string;
   specialization: string;
-  description: string;
+  description1?: string;
+  description2?: string;
+  description3?: string;
+  description4?: string;
   emoji: string;
   image: string;
 }) {
@@ -31,7 +37,18 @@ export default function TeamMember({
 
       {/* Description */}
       <div className="p-6">
-        <p className="text-sm text-gray-700 leading-relaxed">{description}</p>
+        <p className="text-sm text-center mb-4 text-gray-700 leading-relaxed">
+          {description1}
+        </p>
+        <p className="text-sm text-center mb-4 text-gray-700 leading-relaxed">
+          {description2}
+        </p>
+        <p className="text-sm text-center mb-4 text-gray-700 leading-relaxed">
+          {description3}
+        </p>
+        <p className="text-sm text-center text-gray-700 leading-relaxed">
+          {description4}
+        </p>
       </div>
     </div>
   );
