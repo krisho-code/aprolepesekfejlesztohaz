@@ -16,7 +16,7 @@ export default function ContactSection({
         <div className="text-center mb-16">
           <div className="inline-block mb-4">
             <span className="bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-[10px] sm:text-sm font-bold">
-              ✉️ Lépj Kapcsolatba!
+              ✉️ Lépjünk Kapcsolatba!
             </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-gray-900 leading-tight mb-4">
@@ -24,7 +24,7 @@ export default function ContactSection({
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             Keress minket - szívesen segítünk! Vedd fel velünk a kapcsolatot
-            vagy foglalj időpontot.
+            további információkért vagy foglalj időpontot felméréshez.
           </p>
         </div>
 

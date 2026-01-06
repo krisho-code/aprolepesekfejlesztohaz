@@ -12,14 +12,17 @@ export default function Footer() {
   ];
 
   const documents = [
-    { label: "Szerződés", filename: "szerzodes.pdf", type: "PDF" },
-    { label: "Szerződés DOCX", filename: "szerzodes.docx", type: "DOCX" },
     {
-      label: "Adatvédelmi szabályzat",
-      filename: "adatvedelem.pdf",
-      type: "PDF",
+      label: "Általános Szerződési Feltételek",
+      filename: "altalanos_szerzodesi_feltetel_aprolepesekfejlesztohaz.docx",
+      type: "docx",
     },
-    { label: "Használati feltételek", filename: "feltetelek.pdf", type: "PDF" },
+    {
+      label: "Szülői hozzájáruló nyilatkozat adatkezeléshez",
+      filename:
+        "szuloi_hozzajarulo_nyilatkozat_adatkezeleshez_aprolepesekfejlesztohaz.docx",
+      type: "docx",
+    },
   ];
 
   return (
@@ -46,7 +49,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-sm text-gray-600">
-              Személyre szabott fejlesztés csecsemőkortól 16 éves korig.
+              Apró lépésekben haladunk – mert minden kis előrelépés számít.
             </p>
 
             {/* Navigation */}
@@ -75,7 +78,7 @@ export default function Footer() {
               {documents.map((doc, index) => (
                 <li key={index}>
                   <a
-                    href={`/documents/${doc.filename}`}
+                    href={`/docs/${doc.filename}`}
                     download
                     className="text-gray-700 hover:text-orange-500 transition-colors duration-300 font-medium text-sm flex items-center gap-2"
                   >
@@ -98,20 +101,20 @@ export default function Footer() {
             &copy; {currentYear} Apró Lépések Fejlesztőház. Minden jog
             fenntartva.
           </p>
-          {/* <div className="flex gap-4 mt-4 md:mt-0">
+          <div className="flex gap-4 mt-4 md:mt-0">
+            <a
+              href="#"
+              className="hover:text-orange-500 transition-colors duration-300"
+            >
+              Impresszum
+            </a>
             <a
               href="#"
               className="hover:text-orange-500 transition-colors duration-300"
             >
               Adatvédelmi szabályzat
             </a>
-            <a
-              href="#"
-              className="hover:text-orange-500 transition-colors duration-300"
-            >
-              Használati feltételek
-            </a>
-          </div> */}
+          </div>
         </div>
       </div>
     </footer>

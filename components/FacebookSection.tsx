@@ -15,7 +15,7 @@ export default function FacebookSection() {
                 </h3>
               </div>
               <p className="text-gray-700 text-lg text-center sm:text-left mb-4 leading-relaxed">
-                Maradj naprakész az összes legfrissebb híremmel, tippel és
+                Maradj naprakész az összes legfrissebb hírünkkel, tippel és
                 inspiráló tartalmakkal a gyermekfejlesztésről.
               </p>
               <p className="text-gray-700 text-lg text-center sm:text-left mb-4 leading-relaxed">

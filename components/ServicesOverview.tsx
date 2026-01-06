@@ -47,12 +47,18 @@ export default function ServicesOverview() {
             ide illene-e, fordulj hozzánk bizalommal!
           </p>
 
-          <div className="pt-4">
+          <div className="pt-4 flex items-center justify-center space-x-3">
             <Link
               href="/foglalkozasok#services"
               className="inline-block px-8 py-3 bg-orange-400 text-white font-bold rounded-lg hover:bg-orange-500 transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer"
             >
-              Ismerd meg foglalkozásainkat részletesen
+              Foglalkozásaink részletei
+            </Link>
+            <Link
+              href="/kapcsolat"
+              className="inline-block px-8 py-3 bg-transparent text-orange-400 border-2 border-orange-400 font-bold rounded-lg hover:bg-white transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer"
+            >
+              Kapcsolat
             </Link>
           </div>
         </div>

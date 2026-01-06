@@ -45,7 +45,8 @@ export default function ServicesSection() {
             Fejlesztések & <span className="text-green-600">Foglalkozások</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Megoldásaink gyermekek célzott fejlesztésére
+            Személyre szabott fejlesztő foglalkozásaink segítenek gyermekednek a
+            képességei kibontakoztatásában és a harmonikus fejlődésben.
           </p>
         </div>
 

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 
 interface FAQItem {
   id: number;
@@ -130,11 +131,11 @@ export default function GYIK() {
           <p className="text-gray-600 text-lg font-semibold mb-6">
             További kérdésed van? 💜
           </p>
-          <a href="/kapcsolat">
+          <Link href="/kapcsolat">
             <button className="px-8 py-3 bg-purple-500 text-white font-bold rounded-lg hover:bg-purple-600 transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer">
               Kérdezzen tőlünk
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

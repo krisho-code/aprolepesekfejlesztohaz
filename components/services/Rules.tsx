@@ -99,7 +99,7 @@ export default function Rules() {
             <span className="text-blue-600">Házirendje</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Kérjük, olvassák el házirendi szabályainkat a zökkenőmentes és
+            Kérjük, olvasd el házirendi szabályainkat a zökkenőmentes és
             hatékony együttműködés érdekében.
           </p>
         </div>

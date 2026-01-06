@@ -12,14 +12,15 @@ const documents: Document[] = [
   {
     id: 1,
     title: "Általános Szerződési Feltételek",
-    filename: "Általános Szerződési Feltételek.dcx",
+    filename: "altalanos_szerzodesi_feltetel_aprolepesekfejlesztohaz.docx",
     icon: "📄",
     description: "Szolgáltatásaink feltételei és szabályai",
   },
   {
     id: 2,
     title: "Szülői hozzájáruló nyilatkozat",
-    filename: "Szülői hozzájáruló nyilatkozat adatkezeléshez.docx",
+    filename:
+      "szuloi_hozzajarulo_nyilatkozat_adatkezeleshez_aprolepesekfejlesztohaz.docx",
     icon: "✍️",
     description: "Adatkezelési hozzájárulás dokumentum",
   },
@@ -46,7 +47,7 @@ export default function Documents() {
           </h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
             Az alábbiakban megtalálhatók a legfontosabb dokumentumaink, melyeket
-            letölthet és elolvashat
+            letölthetsz és elolvashatsz.
           </p>
         </div>
 
@@ -96,7 +97,7 @@ export default function Documents() {
         {/* Bottom decorative text */}
         <div className="text-center mt-16">
           <p className="text-gray-600 text-lg font-semibold">
-            Kérdés esetén forduljon hozzánk bizalommal! 🧡
+            Kérdés esetén fordulj hozzánk bizalommal! 🧡
           </p>
         </div>
       </div>

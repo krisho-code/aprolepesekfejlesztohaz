@@ -30,7 +30,7 @@ function AccordionItem({
   return (
     <div
       id="services"
-      className="bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 overflow-hidden border-4 border-green-300"
+      className="bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 overflow-hidden border-4 border-green-500"
     >
       {/* Accordion Header */}
       <button
@@ -261,9 +261,9 @@ export default function Services() {
             <span className="text-green-600">Foglalkozásaink</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Központunkban célunk, hogy a gyermekek képességeit játékos,
-            élményalapú formában, egyéni igényeikhez igazodva fejlesszük, biztos
-            alapokat nyújtva az óvodai és iskolai helytálláshoz.
+            Célunk, hogy a gyermekek képességeit játékos, élményalapú formában,
+            egyéni igényeikhez igazodva fejlesszük, biztos alapokat nyújtva az
+            óvodai és iskolai helytálláshoz.
           </p>
         </div>
 
@@ -276,7 +276,7 @@ export default function Services() {
             A megfelelő fejlesztési irány meghatározásához elengedhetetlen a
             gyermek aktuális állapotának pontos megismerése.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-2xl mx-auto">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-2xl mx-auto mb-8">
             <div className="text-gray-800">
               <span className="font-semibold">Felmérés díja:</span> 15.000 Ft
             </div>
@@ -288,6 +288,12 @@ export default function Services() {
               +8.000 Ft
             </div>
           </div>
+          <a
+            href="/kapcsolat"
+            className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+          >
+            Időpont foglalása felméréshez
+          </a>
         </div>
 
         {/* Services Accordion - Single Column Layout */}
@@ -313,7 +319,7 @@ export default function Services() {
               van, mely az aktuális hónap óráinak számából tevődik össze.
             </p>
             <p className="text-gray-800">
-              <strong>Hiányzás:</strong> A lemondott órát a következő hónap
+              <strong>Hiányzás:</strong> Egy lemondott órát a következő hónap
               végéig lehet pótolni.
             </p>
           </div>

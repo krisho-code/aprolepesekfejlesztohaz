@@ -26,7 +26,7 @@ export default function HeroSection() {
             </h2>
 
             <p className="text-lg text-gray-700 leading-relaxed">
-              Gyermekeiket személyre szabott fejlesztésben szeretnék
+              Gyermekeiket személyre szabott fejlesztésben szeretnéd
               részesíteni? Csecsemőkortól 16 éves korig segítünk a
               mozgásfejlesztésben, beszédfejlesztésben és tanulási nehézségek
               legyőzésében.
@@ -37,7 +37,7 @@ export default function HeroSection() {
                 href="/rolunk"
                 className="px-8 py-3 bg-orange-400 text-white font-bold rounded-lg hover:bg-orange-500 transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer"
               >
-                Tudjon meg többet
+                Tudj meg többet
               </Link>
               <Link
                 href="/kapcsolat"

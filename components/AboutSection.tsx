@@ -34,12 +34,12 @@ export default function AboutSection() {
               <p className="text-base mb-3">
                 Az Apró Lépések Fejlesztőházat a felnőtt lányaimmal közösen
                 álmodtuk meg és hoztuk létre. Mindannyian elkötelezett segítő
-                szakemberek vagyunk, és 2016 óta együtt, egy csapatként
-                dolgozunk azért, hogy szeretetteljes, biztonságos és elfogadó
-                környezetet teremtsünk minden hozzánk érkező gyermek számára.
+                szakemberek vagyunk és 2016 óta együtt, egy csapatként dolgozunk
+                azért, hogy szeretetteljes, biztonságos és elfogadó környezetet
+                teremtsünk minden hozzánk érkező gyermek számára.
               </p>
               <p className="text-base italic text-blue-700 font-medium">
-                Ez számomra különleges büszkeség: a hivatásom a gyermekeimre is
+                Ez anyaként különleges büszkeség: a hivatásom a gyermekeimre is
                 átragadt, így együtt segíthetjük a családokat.
               </p>
             </div>
@@ -73,9 +73,9 @@ export default function AboutSection() {
             </div>
 
             {/* Szlogenek */}
-            <div className="bg-blue-50 rounded-lg p-6 border-l-4 border-blue-500">
+            <div className="bg-blue-50">
               <h4 className="text-lg font-bold text-gray-900 mb-3">
-                Szlogenink
+                Szlogeneink
               </h4>
               <ul className="space-y-3 text-sm md:text-base">
                 <li className="flex items-start">

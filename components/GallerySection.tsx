@@ -141,7 +141,7 @@ export default function GallerySection() {
         {/* Bottom decorative text */}
         <div className="text-center mt-16">
           <p className="text-gray-600 text-lg font-semibold">
-            Minden képben egy történet, minden pillanatban egy fejlődés 💗
+            Minden képben egy pillanat, minden pillanatban egy fejlődés 💗
           </p>
         </div>
       </div>

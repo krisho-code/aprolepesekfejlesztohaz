@@ -56,7 +56,7 @@ export default function TeamSection() {
             </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-center text-gray-900 leading-tight">
-            Ismerje meg a <span className="text-yellow-500">tanárainkat</span>
+            Ismerd meg a <span className="text-yellow-500">csapatunkat</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mt-4">
             Tapasztalt és lelkes szakemberek, akik a gyermekek fejlődéséért
