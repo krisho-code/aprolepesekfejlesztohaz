@@ -109,7 +109,7 @@ export default function AboutSection() {
               <div className="bg-white rounded-2xl shadow-xl p-3 border-4 border-blue-300">
                 <div className="relative w-full h-96 rounded-lg overflow-hidden">
                   <Image
-                    src="/image4.png"
+                    src="/about.jpg"
                     alt="Apró Lépések Fejlesztőház"
                     fill
                     className="object-cover"

@@ -30,9 +30,9 @@ export default function TeamMember({
       <div className="bg-yellow-50 p-6 text-center">
         <div className="text-3xl mb-2">{emoji}</div>
         <h3 className="text-lg font-bold text-gray-900">{name}</h3>
-        <p className="text-yellow-600 font-semibold text-sm mt-1">
+        {/* <p className="text-yellow-600 font-semibold text-sm mt-1">
           {specialization}
-        </p>
+        </p> */}
       </div>
 
       {/* Description */}

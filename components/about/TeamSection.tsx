@@ -16,7 +16,7 @@ const teamMembers = [
     image: "/team1.png",
   },
   {
-    name: "Bodnár Katalin",
+    name: "Bodnár Kati",
     specialization: "Gyógypedagógus",
     description1:
       "Gyógypedagógus, tanító, alapozó terapeuta, gyerekjóga oktató és beszédpercepciós fejlesztő vagyok – de ami a legfontosabb: négy gyermek édesanyja. Hiszek benne, hogy minden gyermek különleges, egyedi értékekkel születik, és minden apró lépés egy hatalmas fejlődés része.",

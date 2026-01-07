@@ -12,33 +12,69 @@ interface FAQItem {
 const faqs: FAQItem[] = [
   {
     id: 1,
-    question: "Milyen korú gyermekeket fogadtok?",
+    question: "Nagy a baj? Ugye nincs nagy baj?",
     answer:
-      "Foglalkozásainkat 0-18 éves korig terjedő gyermekek számára kínáljuk. Különböző korosztályoknak és fejlesztési igényeknek megfelelően alakítjuk ki a programokat, hogy minden gyermek a számára legmegfelelőbb támogatást kapja.",
+      'Ez a kérdés szinte minden szülőben megfogalmazódik – és teljesen érthető. A legtöbb esetben nem „bajról", hanem eltérésről, lemaradásról vagy éretlenségről beszélünk, amely megfelelő támogatással jól korrigálható. Ugyanakkor fontos az őszinte látás: ha egy gyermek elakadása tartós, akkor nem megoldás az időre bízni. A korai felismerés és a célzott fejlesztés a legnagyobb segítség, amit egy gyermek kaphat. Mi abban segítünk, hogy reálisan, mégis megnyugtatóan lássuk a helyzetet, és együtt találjuk meg a továbblépés útját.',
   },
   {
     id: 2,
-    question: "Mennyi ideig tart egy foglalkozás?",
+    question: "Biztos, hogy szükség van fejlesztésre? Nem nő ki belőle?",
     answer:
-      "Egy foglalkozás általában 45-60 percet vesz igénybe, attól függően, hogy milyen típusú fejlesztésről van szó és a gyermek életkorától. Az első alkalommal közösen megbeszéljük a részleteket és az optimális időtartamot.",
+      "Vannak területek, ahol az érés valóban sokat segít, de vannak olyan részképességek és idegrendszeri folyamatok, amelyek nem fejlődnek maguktól. Ha egy nehézség hosszabb ideje fennáll, vagy több területen is megjelenik, akkor a fejlesztés nem siettetés, hanem biztonságos támogatás. A tapasztalat azt mutatja, hogy a gyermekek akkor tudnak felszabadultan fejlődni, ha megkapják azt a segítséget, amire szükségük van.",
   },
   {
     id: 3,
-    question: "Szükséges-e előzetes bejelentkezés?",
+    question: "Meddig kell járnia a gyermeknek fejlesztésre?",
     answer:
-      "Igen, a foglalkozásokra előzetes egyeztetés és időpontfoglalás szükséges. Ez biztosítja, hogy minden gyermek számára megfelelő időt és figyelmet tudjunk szentelni. Foglaláshoz hívj minket telefonon vagy írj e-mailt!",
+      "Erre a kérdésre nincs sablonválasz. A fejlesztés nem időhöz, hanem a gyermek fejlődési folyamatához igazodik. Vannak gyermekek, akiknél néhány hónap alatt látványos változás indul el, másoknál hosszabb, hullámzóbb folyamatra van szükség. A fejlődést rendszeresen nyomon követjük, és a folytatásról, módosításról vagy lezárásról mindig közösen döntünk a szülőkkel.",
   },
   {
     id: 4,
-    question: "Milyen szakemberek dolgoznak nálatok?",
+    question: "Hogyan történik a fizetés?",
     answer:
-      "Csapatunk tapasztalt gyógypedagógusokból, fejlesztőpedagógusokból és logopédusokból áll, akik folyamatosan képzik magukat a legújabb módszerekkel. Minden szakemberünk rendelkezik a szükséges végzettséggel és évek óta dolgozik gyermekekkel.",
+      "A foglalkozások díja havidíj formájában kerül elszámolásra, amely az adott hónapban megtartott foglalkozások óraszámából tevődik össze. Minden csoport előre, időben megkapja a tájékoztatást az aktuális havi díjról. Az időben lemondott órák pótolhatók, legkésőbb a következő hónap végéig, előre egyeztetett időpontban. Fontos számunkra az átlátható, kiszámítható működés, ezért a fizetéssel kapcsolatos kérdésekre mindig nyitottan válaszolunk.",
   },
   {
     id: 5,
-    question: "Mennyi a foglalkozások díja?",
+    question: "Mit tehetek én szülőként? Elég, ha elhozom a gyermekemet?",
     answer:
-      "A foglalkozások díja a fejlesztés típusától és időtartamától függ. Az első konzultáció során részletes tájékoztatást adunk az árakról és a lehetséges fizetési módokról. Egyéni helyzetekhez rugalmasan tudunk alkalmazkodni.",
+      'A fejlesztés akkor a legeredményesebb, ha a szülő aktív partner benne. Nem várjuk el, hogy a szülő „fejlesztővé váljon", de fontos, hogy értse, mi miért történik, és hogyan tudja a mindennapokban támogatni gyermekét. A foglalkozások során és mellett is szülői tanácsadással, iránymutatással segítünk, mert hisszük, hogy a gyermek fejlődésének legnagyobb erőforrása a támogató környezet.',
+  },
+  {
+    id: 6,
+    question: "Hogyan zajlik az első alkalom?",
+    answer:
+      "Az első találkozás elsősorban ismerkedés. Megismerjük a gyermeket, feltérképezzük az erősségeit és az esetleges nehézségeit, miközben a foglalkozás játékos, nyugodt légkörben zajlik. Ez nem vizsga, nincs jó vagy rossz teljesítmény – a gyermek a saját tempójában kapcsolódhat be.",
+  },
+  {
+    id: 7,
+    question: "Kell-e valamire külön készülnünk?",
+    answer:
+      'Nincs szükség előzetes felkészítésre vagy „gyakorlásra". A legfontosabb, hogy a gyermek kipihenten érkezzen, a szülő pedig őszintén elmondja, mi az, ami miatt segítséget kér. Ha van korábbi szakvélemény, fejlesztési javaslat vagy pedagógiai dokumentum, azt érdemes magatokkal hozni.',
+  },
+  {
+    id: 8,
+    question: "Bent maradhat a szülő a foglalkozáson?",
+    answer:
+      "Ez mindig a gyermek életkorától, személyiségétől és aktuális állapotától függ. Van, amikor a szülő jelenléte megnyugtató, máskor éppen az segíti a gyermeket, ha önállóan kapcsolódhat a foglalkozáshoz. Erről minden esetben közösen döntünk, a gyermek érdekeit szem előtt tartva.",
+  },
+  {
+    id: 9,
+    question: "Mit hozzunk magunkkal?",
+    answer:
+      "Kényelmes ruhát, kislányoknak hajgumit, szükség esetén innivalót. Minden egyéb eszközt a foglalkozáshoz mi biztosítunk.",
+  },
+  {
+    id: 10,
+    question: "Mi történik az első alkalom után?",
+    answer:
+      "Az első találkozást követően visszajelzést adunk a szülőknek, és közösen átbeszéljük a további lehetőségeket: szükséges-e fejlesztés, milyen formában (egyéni vagy csoportos), milyen gyakorisággal érdemes folytatni. A döntés mindig közös, a gyermek egyéni szükségleteihez igazodva.",
+  },
+  {
+    id: 11,
+    question: "Miért fontos a korai segítség?",
+    answer:
+      "Minél hamarabb kap egy gyermek megfelelő támogatást, annál könnyebben és örömtelibben tud fejlődni. Hiszünk abban, hogy az apró lépések adják a legnagyobb biztonságot – a gyermeknek és a családnak egyaránt.",
   },
 ];
 
@@ -81,7 +117,7 @@ export default function GYIK() {
             >
               <button
                 onClick={() => toggleFAQ(faq.id)}
-                className="w-full p-6 text-left flex items-center justify-between gap-4 hover:bg-purple-50 transition-colors"
+                className="w-full p-6 text-left flex items-center justify-between gap-4 hover:bg-purple-50 transition-colors cursor-pointer"
               >
                 <div className="flex items-start gap-4 flex-1">
                   <span className="text-2xl shrink-0">

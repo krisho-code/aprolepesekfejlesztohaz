@@ -16,16 +16,16 @@ export default function Header() {
       <div className="container mx-auto px-8 xl:px-24 py-4 flex items-center justify-between">
         {/* Logo/Title */}
         <Link href="/" className="flex items-center gap-2 cursor-pointer group">
-          <div className="w-10 h-10 md:w-12 md:h-12 bg-orange-400 rounded-lg flex items-center justify-center font-bold text-xl md:text-2xl group-hover:rotate-12 transition-transform duration-300">
-            <img src="/logo.png" />
-          </div>
+          <img
+            src="/logo.png"
+            alt="Apró Lépések Logo"
+            className="w-10 h-10 flex items-center justify-center"
+          />
           <div className="flex flex-col">
             <h1 className="text-base md:text-xl font-black text-gray-800">
               Apró Lépések
             </h1>
-            <p className="text-xs text-orange-500 font-bold hidden md:block">
-              fejlesztőház
-            </p>
+            <p className="text-xs font-bold hidden md:block">fejlesztőház</p>
           </div>
         </Link>
 

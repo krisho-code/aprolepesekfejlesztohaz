@@ -36,16 +36,16 @@ export default function Footer() {
               href="/"
               className="flex items-center gap-2 cursor-pointer group justify-center md:justify-start"
             >
-              <div className="w-10 h-10 bg-orange-400 rounded-lg flex items-center justify-center font-bold text-xl group-hover:rotate-12 transition-transform duration-300">
-                <img src="/logo.png" alt="Apró Lépések Logo" />
-              </div>
+              <img
+                src="/logo.png"
+                alt="Apró Lépések Logo"
+                className="w-10 h-10 flex items-center justify-center"
+              />
               <div className="flex flex-col">
                 <h3 className="text-base font-black text-gray-800">
                   Apró Lépések
                 </h3>
-                <p className="text-xs text-orange-500 font-bold">
-                  fejlesztőház
-                </p>
+                <p className="text-xs font-bold">fejlesztőház</p>
               </div>
             </Link>
             <p className="text-sm text-gray-600">
@@ -102,18 +102,18 @@ export default function Footer() {
             fenntartva.
           </p>
           <div className="flex gap-4 mt-4 md:mt-0">
-            <a
-              href="#"
+            <Link
+              href="/impresszum"
               className="hover:text-orange-500 transition-colors duration-300"
             >
               Impresszum
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="/adatvedelmitajekoztato"
               className="hover:text-orange-500 transition-colors duration-300"
             >
-              Adatvédelmi szabályzat
-            </a>
+              Adatvédelmi tájékoztató
+            </Link>
           </div>
         </div>
       </div>

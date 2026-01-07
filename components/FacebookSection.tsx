@@ -27,7 +27,7 @@ export default function FacebookSection() {
             {/* Facebook CTA */}
             <div className="flex justify-center lg:justify-end">
               <a
-                href="https://facebook.com/"
+                href="https://www.facebook.com/aprokfejlesztese"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3 bg-blue-600 text-white font-bold text-center rounded-lg hover:bg-blue-700 transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer"

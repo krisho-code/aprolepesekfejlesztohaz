@@ -13,8 +13,8 @@ interface GalleryImage {
 
 const galleryImages: GalleryImage[] = [
   {
-    id: 5,
-    src: "/image5.png",
+    id: 1,
+    src: "/galery1.jpg",
     alt: "Галерея 5",
     borderColor: "border-purple-300",
     emoji: "🎨",
@@ -23,8 +23,8 @@ const galleryImages: GalleryImage[] = [
     scale: "hover:scale-110",
   },
   {
-    id: 6,
-    src: "/image6.png",
+    id: 2,
+    src: "/galery2.jpg",
     alt: "Галерея 6",
     borderColor: "border-green-300",
     emoji: "🌟",
@@ -33,8 +33,8 @@ const galleryImages: GalleryImage[] = [
     scale: "hover:scale-110",
   },
   {
-    id: 7,
-    src: "/image7.png",
+    id: 3,
+    src: "/galery3.jpg",
     alt: "Галерея 7",
     borderColor: "border-pink-300",
     emoji: "💫",
@@ -43,8 +43,8 @@ const galleryImages: GalleryImage[] = [
     scale: "hover:scale-110",
   },
   {
-    id: 8,
-    src: "/image8.png",
+    id: 4,
+    src: "/galery4.jpg",
     alt: "Галерея 8",
     borderColor: "border-yellow-300",
     emoji: "🎯",
@@ -53,8 +53,8 @@ const galleryImages: GalleryImage[] = [
     scale: "hover:scale-110",
   },
   {
-    id: 9,
-    src: "/image9.png",
+    id: 5,
+    src: "/galery5.jpg",
     alt: "Галерея 9",
     borderColor: "border-blue-300",
     emoji: "🎪",
@@ -63,8 +63,8 @@ const galleryImages: GalleryImage[] = [
     scale: "hover:scale-110",
   },
   {
-    id: 10,
-    src: "/image10.png",
+    id: 6,
+    src: "/galery6.jpg",
     alt: "Галерея 10",
     borderColor: "border-orange-300",
     emoji: "✨",

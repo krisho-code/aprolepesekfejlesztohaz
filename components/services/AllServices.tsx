@@ -35,7 +35,7 @@ function AccordionItem({
       {/* Accordion Header */}
       <button
         onClick={onClick}
-        className="w-full p-6 flex items-start justify-between hover:bg-green-50 transition-colors duration-200"
+        className="w-full p-6 flex items-start justify-between hover:bg-green-50 transition-colors duration-200 cursor-pointer"
       >
         <div className="flex items-start gap-4 text-left flex-1">
           <div className="text-3xl">{icon}</div>
@@ -144,7 +144,7 @@ export default function Services() {
       subtitle:
         "Az Alapozó Terápia egy komplex, mozgásfejlesztésen alapuló idegrendszer-érlelő módszer. Célja, hogy a gyermek fejlődésében esetlegesen kimaradt, vagy nem megfelelően rögzült csecsemő- és kisgyermekkori mozgásmintákat (pl. kúszás, mászás, megfelelő reflexek megléte) újraépítse. Ezzel stabil, teherbíró alapot teremtünk az agy további fejlődéséhez, ami elengedhetetlen a későbbi sikeres tanuláshoz, a tartós figyelemhez és a harmonikus mozgáshoz.",
       duration: "Heti 2 x 60 perc (a hatékonyság érdekében)",
-      price: "3.800 Ft / óra",
+      price: "3.800 Ft / alkalom",
       whatWeDevelop: [
         "Az idegrendszer érettségét és a szenzoros integrációt (az érzékszervekből érkező információk feldolgozását).",
         "Egyensúlyérzéket, testtudatot és a térbeli tájékozódást.",
@@ -171,7 +171,7 @@ export default function Services() {
       subtitle:
         "Célunk, hogy a gyerekek természetes kíváncsiságára és játékosságára építve erősítsük azokat az alapkészségeket (figyelem, gondolkodás, emlékezet, feladattartás), amelyekre később az iskolában is nagy szükségük lesz – mindezt élményalapú, örömteli formában.",
       duration: "Heti 1 x 45 perc",
-      price: "4.000 Ft / óra",
+      price: "4.000 Ft / alkalom",
       whatWeDevelop: [
         "Figyelem és koncentráció",
         "Emlékezet (vizuális és auditív)",
@@ -197,7 +197,7 @@ export default function Services() {
       subtitle:
         "Az iskolakezdés nagy mérföldkő. Foglalkozásaink célja, hogy játékos formában teremtsük meg azokat a fontos alapokat (megfelelő figyelem, feladattartás, finommotorika, szociális készségek), amelyekre szükség van ahhoz, hogy a gyermek biztonsággal, sikerélménnyel és örömmel vegye az első akadályokat.",
       duration: "Heti 1 x 45 perc",
-      price: "4.000 Ft / óra",
+      price: "4.000 Ft / alkalom",
       whatWeDevelop: [
         "Figyelem, feladattartás, feladatértés és feladatra váltás",
         "Emlékezet és gondolkodás",
@@ -221,7 +221,7 @@ export default function Services() {
       subtitle:
         "Ez a foglalkozás azoknak a gyermekeknek szól, akiknél a beszéd még nem indult el, késve indult, vagy nehezebben fejlődik. A beszéd megjelenéséhez nemcsak a hangképzés, hanem a hangok meghallása, megkülönböztetése és megértése (beszédpercepció) is szükséges. Ezeket az alapokat erősítjük meg játékos formában.",
       duration: "Heti 1 x 45 perc",
-      price: "4.000 Ft / óra",
+      price: "4.000 Ft / alkalom",
       whatWeDevelop: [
         "Hangok felismerése és megkülönböztetése",
         "Beszédértés, szókincs és utánzókészség",

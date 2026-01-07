@@ -15,7 +15,7 @@ interface ImageCard {
 const images: ImageCard[] = [
   {
     id: 1,
-    src: "/image1.png",
+    src: "/hero1.jpg",
     alt: "Fejlesztés 1",
     borderColor: "border-orange-300",
     emoji: "😊",
@@ -26,7 +26,7 @@ const images: ImageCard[] = [
   },
   {
     id: 2,
-    src: "/image2.png",
+    src: "/hero2.jpg",
     alt: "Fejlesztés 2",
     borderColor: "border-blue-300",
     emoji: "🎉",
@@ -37,7 +37,7 @@ const images: ImageCard[] = [
   },
   {
     id: 3,
-    src: "/image3.png",
+    src: "/hero3.jpg",
     alt: "Fejlesztés 3",
     borderColor: "border-green-300",
     emoji: "⭐",
