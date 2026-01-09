@@ -29,7 +29,7 @@ export default function ContactSection({
         </div>
 
         {/* Contact Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {/* Phone Card */}
           <div className="p-6 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 border-4 border-purple-300 flex flex-col items-center text-center">
             <div className="text-4xl mb-3">📞</div>
@@ -43,7 +43,7 @@ export default function ContactSection({
           </div>
 
           {/* Email Card */}
-          <div className="p-6 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 border-4 border-purple-300 flex flex-col items-center text-center">
+          <div className="p-6 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 border-4 border-purple-300 flex flex-col items-center text-center md:col-span-2 lg:col-span-1 md:order-3 lg:order-2">
             <div className="text-4xl mb-3">✉️</div>
             <h3 className="text-lg font-bold text-gray-900 mb-2">Email</h3>
             <a
@@ -69,7 +69,7 @@ export default function ContactSection({
         </div>
 
         {/* CTA Button Section */}
-        <div className="flex items-center justify-center space-x-3">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-center md:space-x-3 gap-4 md:gap-0">
           <div className="flex justify-center">
             <a href="mailto:aprolepesekfejlesztohaz@gmail.com">
               <button className="px-8 py-3 bg-purple-400 text-white font-bold rounded-lg hover:bg-purple-500 transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer text-lg">
