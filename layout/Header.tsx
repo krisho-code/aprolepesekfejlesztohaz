@@ -38,8 +38,8 @@ export default function Header() {
                   href={item.href}
                   className={`px-4 py-2 font-semibold transition-all duration-300 ${
                     item.isButton
-                      ? "ml-2 bg-orange-400 text-white rounded-lg hover:bg-orange-500 transform hover:shadow-lg"
-                      : "text-gray-700 hover:text-orange-500 border-b-2 border-transparent hover:border-orange-500"
+                      ? "ml-2 bg-[#fe6f62] text-white rounded-lg hover:bg-[#f4513f] transform hover:shadow-lg"
+                      : "text-gray-700 hover:text-[#fe6f62] border-b-2 border-transparent hover:border-[#fe6f62]"
                   }`}
                 >
                   {item.label}

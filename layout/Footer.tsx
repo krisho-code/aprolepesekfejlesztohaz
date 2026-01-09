@@ -59,7 +59,7 @@ export default function Footer() {
                   <li key={index}>
                     <Link
                       href={item.href}
-                      className="text-gray-900 hover:text-orange-500 transition-colors duration-300 font-medium text-sm"
+                      className="text-gray-900 hover:text-[#fe6f62] transition-colors duration-300 font-medium text-sm"
                     >
                       {item.label}
                     </Link>
@@ -80,7 +80,7 @@ export default function Footer() {
                   <a
                     href={`/docs/${doc.filename}`}
                     download
-                    className="text-gray-700 hover:text-orange-500 transition-colors duration-300 font-medium text-sm flex items-center gap-2"
+                    className="text-gray-700 hover:text-[#fe6f62] transition-colors duration-300 font-medium text-sm flex items-center gap-2"
                   >
                     <span>{doc.label}</span>
                     <span className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded max-[410px]:hidden">
@@ -104,13 +104,13 @@ export default function Footer() {
           <div className="flex gap-4 mt-4 md:mt-0">
             <Link
               href="/impresszum"
-              className="hover:text-orange-500 transition-colors duration-300"
+              className="hover:text-[#fe6f62] transition-colors duration-300"
             >
               Impresszum
             </Link>
             <Link
               href="/adatvedelmitajekoztato"
-              className="hover:text-orange-500 transition-colors duration-300"
+              className="hover:text-[#fe6f62] transition-colors duration-300"
             >
               Adatvédelmi tájékoztató
             </Link>

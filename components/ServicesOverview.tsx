@@ -4,20 +4,20 @@ export default function ServicesOverview() {
   return (
     <section
       id="foglalkozasok-overview"
-      className="py-16 bg-linear-to-br from-orange-50 to-orange-100"
+      className="py-16 bg-linear-to-br from-[#fff2ee] to-[#ffe3dd]"
     >
-      <div className="absolute top-1/2 left-1/2 w-48 h-48 bg-orange-200 rounded-full blur-3xl opacity-5 -z-10"></div>
+      <div className="absolute top-1/2 left-1/2 w-48 h-48 bg-[#ffc9c3] rounded-full blur-3xl opacity-5 -z-10"></div>
 
       <div className="container mx-auto px-8 xl:px-24">
         {/* Header */}
         <div className="mb-12 text-center">
           <div className="inline-block mb-4">
-            <span className="bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-[10px] sm:text-sm font-bold">
+            <span className="bg-[#ffe3dd] text-[#f4513f] px-4 py-2 rounded-full text-[10px] sm:text-sm font-bold">
               🎯 Foglalkozások
             </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-center text-gray-900 leading-tight">
-            Milyen <span className="text-orange-500">foglalkozásokat</span>{" "}
+            Milyen <span className="text-[#fe6f62]">foglalkozásokat</span>{" "}
             kínálunk?
           </h2>
         </div>
@@ -50,13 +50,13 @@ export default function ServicesOverview() {
           <div className="pt-4 flex flex-col md:flex-row items-center justify-center md:space-x-3 gap-3 md:gap-0">
             <Link
               href="/foglalkozasok#services"
-              className="inline-block px-8 py-3 bg-orange-400 text-white font-bold rounded-lg hover:bg-orange-500 transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer text-center w-fit"
+              className="inline-block px-8 py-3 bg-[#fe6f62] text-white font-bold rounded-lg hover:bg-[#f4513f] transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer text-center w-fit"
             >
               Foglalkozásaink részletei
             </Link>
             <Link
               href="/kapcsolat"
-              className="inline-block px-8 py-3 bg-transparent text-orange-400 border-2 border-orange-400 font-bold rounded-lg hover:bg-white transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer text-center w-fit"
+              className="inline-block px-8 py-3 bg-transparent text-[#fe6f62] border-2 border-[#fe6f62] font-bold rounded-lg hover:bg-white transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer text-center w-fit"
             >
               Kapcsolat
             </Link>

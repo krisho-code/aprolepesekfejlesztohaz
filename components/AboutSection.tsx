@@ -116,7 +116,7 @@ export default function AboutSection() {
                   />
                 </div>
               </div>
-              <div className="absolute -top-3 -right-3 bg-orange-300 text-2xl rounded-full p-2 shadow-md">
+              <div className="absolute -top-3 -right-3 bg-[#ffc9c3] text-2xl rounded-full p-2 shadow-md">
                 ❤️
               </div>
             </div>

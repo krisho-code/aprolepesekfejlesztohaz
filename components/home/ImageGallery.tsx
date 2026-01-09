@@ -17,7 +17,7 @@ const images: ImageCard[] = [
     id: 1,
     src: "/hero1.jpg",
     alt: "Fejlesztés 1",
-    borderColor: "border-orange-300",
+    borderColor: "border-[#ffc9c3]",
     emoji: "😊",
     emojiBackground: "bg-yellow-300",
     position: "top",
