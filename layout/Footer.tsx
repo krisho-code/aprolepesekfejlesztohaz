@@ -83,7 +83,7 @@ export default function Footer() {
                     className="text-gray-700 hover:text-orange-500 transition-colors duration-300 font-medium text-sm flex items-center gap-2"
                   >
                     <span>{doc.label}</span>
-                    <span className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
+                    <span className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded max-[410px]:hidden">
                       {doc.type}
                     </span>
                   </a>
@@ -96,7 +96,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <div className="border-t border-gray-200 bg-gray-50">
-        <div className="container mx-auto px-8 xl:px-24 py-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-600">
+        <div className="container mx-auto px-8 xl:px-24 py-6 flex flex-col md:flex-row items-center justify-between text-sm text-center text-gray-600">
           <p>
             &copy; {currentYear} Apró Lépések Fejlesztőház. Minden jog
             fenntartva.
