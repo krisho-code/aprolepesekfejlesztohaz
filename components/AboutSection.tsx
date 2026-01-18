@@ -11,7 +11,7 @@ export default function AboutSection() {
         <div className="mb-16 text-center">
           <div className="inline-block mb-4">
             <span className="bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-[10px] sm:text-sm font-bold">
-              💙 Ismerd Meg Minket!
+              💙 Ismerj Meg Minket!
             </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-center text-gray-900 leading-tight mb-4">
