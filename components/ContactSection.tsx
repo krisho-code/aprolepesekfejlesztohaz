@@ -78,7 +78,10 @@ export default function ContactSection({
             </a>
           </div>
           <div className="flex justify-center">
-            <Link href="/kapcsolat">
+            <Link
+              href="https://calendar.app.google/28d7xLLmKt9VPnci8"
+              target="_blank"
+            >
               <button className="px-8 py-3 bg-transparent text-purple-400 border-2 border-purple-400 font-bold rounded-lg hover:bg-white transition-all duration-300 transform hover:shadow-lg hover:scale-105 cursor-pointer text-lg">
                 Foglalj Időpontot
               </button>

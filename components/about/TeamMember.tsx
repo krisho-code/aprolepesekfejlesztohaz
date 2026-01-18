@@ -22,9 +22,9 @@ export default function TeamMember({
   return (
     <div className="bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 border-4 border-yellow-300 overflow-hidden">
       {/* Profile Picture */}
-      <div className="relative w-full h-48 bg-yellow-50 overflow-hidden">
+      {/* <div className="relative w-full h-48 bg-yellow-50 overflow-hidden">
         <Image src={image} alt={name} fill className="object-cover" />
-      </div>
+      </div> */}
 
       {/* Header with emoji */}
       <div className="bg-yellow-50 p-6 text-center">

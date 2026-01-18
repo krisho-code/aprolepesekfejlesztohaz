@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 interface AccordionItemProps {
   title: string;
@@ -288,12 +289,12 @@ export default function Services() {
               +8.000 Ft
             </div>
           </div>
-          <a
-            href="/kapcsolat"
+          <Link
+            href="https://calendar.app.google/28d7xLLmKt9VPnci8"
             className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
           >
             Időpont foglalása felméréshez
-          </a>
+          </Link>
         </div>
 
         {/* Services Accordion - Single Column Layout */}
